@@ -1,0 +1,4 @@
+*.swp
+*.zip
+dist
+node_modules

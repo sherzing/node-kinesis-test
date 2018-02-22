@@ -1,0 +1,21 @@
+{
+  "name": "kinesis-example",
+  "version": "0.0.1",
+  "description": "kinesis example",
+  "main": "producer.js",
+  "scripts": {
+    "transpile": "babel --presets node6 *.js --out-dir dist",
+    "pack": "zip kinesis-testing.zip -r dist/*.js package.json node_modules",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sven",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.169.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-node6": "^11.0.0"
+  }
+}
