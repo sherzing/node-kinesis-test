@@ -13,7 +13,7 @@ This is just a quick POC project to get to know AWS Kinensis better. Maybe it's 
 
 run with the following command:
 
-AWS_ACCESS_KEY_ID=<your access key> AWS_SECRET_ACCESS_KEY=<your secret key> lambda-local -f producer.js -t 600
+AWS_ACCESS_KEY_ID=your_access_key AWS_SECRET_ACCESS_KEY=your_secret_key lambda-local -f producer.js -t 600
 
 ### consumer
 
